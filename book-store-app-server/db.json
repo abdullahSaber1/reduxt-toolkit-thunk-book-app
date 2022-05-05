@@ -1,0 +1,23 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "learn react",
+      "description": "learn react from scratch",
+      "price": 30
+    },
+    {
+      "id": 2,
+      "title": "learn js",
+      "description": "learn js from scratch",
+      "price": 30
+    },
+    {
+      "title": "learn php 8",
+      "price": "2999",
+      "description": "learn php 8",
+      "userName": "abdallah saber",
+      "id": 3
+    }
+  ]
+}
