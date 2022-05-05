@@ -1,12 +1,23 @@
-# Project Title
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-A Book List made with React.js using React Hooks, Context API ,@Redux/toolkit , 
+# dependencies
+node_modules
+/.pnp
+.pnp.js
 
-json-server
+# testing
+/coverage
 
-## To Run yhis Project
+# production
+/build
 
-1- json-server --watch db.json --port 3005 (Run backend server) in 
-(book-store-app-server folder)
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-2- npm start (Run Frontend Server) in (reduxt-toolkit-thunk-book-app folder)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
